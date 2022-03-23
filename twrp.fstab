@@ -1,0 +1,11 @@
+# mount point       fstype    device                                                                flags
+/boot            emmc     /dev/block/mmcblk0p20     flags=display="Boot";backup=1;flashimg=1
+/recovery        emmc     /dev/block/mmcblk0p21     flags=display="Recovery";backup=1;flashimg=1
+/data            f2fs     /dev/block/mmcblk0p27     flags=display="Data"
+/system          ext4     /dev/block/mmcblk0p25     flags=display="System";backup=1
+/cache           f2fs     /dev/block/mmcblk0p24     flags=display="Cache"
+/efs             emmc     /dev/block/mmcblk0p17     flags=display="Efs"
+/modem           emmc     /dev/block/mmcblk0p8      flags=display="Modem"
+/modem2          emmc     /dev/block/mmcblk0p9      flags=display="Modem2"
+/external_sd     vfat     /dev/block/mmcblk1p1      flags=display="External_sd"
+/usb-otg         auto     /dev/block/sda1           flags=display="Usb-otg"
